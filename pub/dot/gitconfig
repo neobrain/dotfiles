@@ -1,0 +1,13 @@
+[user]
+	email = neobrain@users.noreply.github.com
+	name = Tony Wasserka
+[alias]
+	addup = add -u -p
+[diff]
+	colormoved = blocks
+[color "diff"]
+	newMoved = magenta bold
+	oldMoved = magenta normal
+[log]
+	follow = true
+
