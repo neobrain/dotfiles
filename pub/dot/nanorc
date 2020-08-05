@@ -1,0 +1,17 @@
+include /usr/share/nano/c.nanorc
+include /usr/share/nano/xml.nanorc
+include /home/tony/.nano/haskell.nanorc
+include /home/tony/.nano/scala.nanorc
+
+set nowrap
+
+set smooth
+
+# Always show status bar with cursor information
+set constantshow
+
+set tabsize 4
+set tabstospaces
+
+# Scrollbar (available since Nano 5.0)
+set indicator

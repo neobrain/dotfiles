@@ -1,0 +1,17 @@
+## Nano color theme for Scala.
+## 2013, 2018, Tobias Roeser
+##
+syntax "scala" "\.(scala|sbt|sc)$"
+color green "\<(new|this|transient)\>"
+color green "\<(catch|do|else|finally|for|if|match|return|switch|throw|try|val|var|while)\>"
+color green "\<(def|abstract|class|extends|final|import|package|private|protected|public|trait|volatile)\>"
+color green "(\{|\}|\(|\)|\;|\]|\[|`|\\|\$|<|>|!|=|&|\|)|\+|\-|\*|\/"
+color red "@(\\.|[^(])*"
+color yellow "\<(true|false|null)\>"
+color cyan "//.*"
+color cyan start="/\*" end="\*/"
+color brightblue start="/\*\*" end="\*/"
+color cyan start="/\*\*" end="\*/"
+icolor brightred "\$\{?[0-9A-Z_!@#$*?-]+\}?"
+color ,cyan "[[:space:]]+$"
+color yellow ""[^"]*""
