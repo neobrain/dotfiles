@@ -1,3 +1,5 @@
+[init]
+	defaultBranch = main
 [user]
 	email = neobrain@users.noreply.github.com
 	name = Tony Wasserka
@@ -10,4 +12,3 @@
 	oldMoved = magenta normal
 [log]
 	follow = true
-
