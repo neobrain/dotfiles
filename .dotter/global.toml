@@ -6,6 +6,7 @@ depends = []
 [default.files]
 gdbinit = "~/.gdbinit"
 gitconfig = "~/.gitconfig"
+"micro.json" = "~/.config/micro/settings.json"
 nano = "~/.nano"
 nanorc = "~/.nanorc"
 "nushell.nu" = "~/.config/nushell/config.nu"
