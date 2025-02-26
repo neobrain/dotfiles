@@ -2,15 +2,15 @@
     "*.diff": {
         "rmtrailingws": false
     },
-    "ft:c": {
-        "linter": false,
-    },
-    "ft:c++": {
-        "linter": false,
-    },
-    "colorscheme_": "bubblegum",
     "autoclose": false,
     "autoindent": false,
+    "colorscheme_": "bubblegum",
+    "ft:c": {
+        "linter": false
+    },
+    "ft:c++": {
+        "linter": false
+    },
     "hlsearch": true,
     "rmtrailingws": true,
     "scrollbar": true,

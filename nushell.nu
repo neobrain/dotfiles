@@ -80,6 +80,12 @@ export def list-conflicts [] {
 #$env.config.completions.external.enable = true
 #$env.config.completions.completer = $fish_completer
 
+def conanrun [command: closure] {
+    bash -c 'env > /tmp/conanrun_env_old; . conanrun.sh; env > /tmp/conanrun_env_new'
+    let added_env = diff env_old env_new | grep '^> ' | sed 's/^> //' | lines | split column '=' key value | transpose -r
+    with-env $added_env { do $command }
+}
+
 use std *
 path add /opt/homebrew/bin
 path add '~/.cargo/bin'
