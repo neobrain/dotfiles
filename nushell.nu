@@ -1,6 +1,9 @@
 $env.EDITOR = "micro"
 alias nano = micro
 
+$env.CMAKE_GENERATOR = "Ninja"
+$env.CMAKE_COLOR_DIAGNOSTICS = 1
+
 $env.config.show_banner = false
 
 $env.config.cursor_shape.emacs = "line"
