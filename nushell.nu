@@ -19,6 +19,22 @@ $env.config.datetime_format.table = '%d %b %Y  %H:%M'
 # Adds weird artifacts in Konsole
 $env.config.shell_integration.osc133 = false
 
+# Ensures existing text is used as a filter when using CTRL+R
+$env.config.menus = [{
+   name: history_menu
+   only_buffer_difference: false
+   marker: "? "
+   type: {
+       layout: list
+       page_size: 10
+   }
+   style: {
+       text: green
+       selected_text: green_reverse
+       description_text: yellow
+   }
+}]
+
 if $env.NU_USER_FORCE_LIGHT_THEME? != null {
   # $env.config.color_config = $light_theme
 }
