@@ -14,5 +14,6 @@
     "hlsearch": true,
     "rmtrailingws": true,
     "scrollbar": true,
-    "tabstospaces": true
+    "tabstospaces": true,
+    "parsecursor": true
 }
