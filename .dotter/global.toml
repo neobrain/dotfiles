@@ -7,6 +7,7 @@ depends = []
 "bottom.toml" = "~/.config/bottom/bottom.toml"
 gdbinit = "~/.gdbinit"
 gdbearlyinit = "~/.gdbearlyinit"
+"ghostty.ini" = "~/.config/ghostty/config"
 gitconfig = "~/.gitconfig"
 "micro.json" = "~/.config/micro/settings.json"
 nano = "~/.nano"
