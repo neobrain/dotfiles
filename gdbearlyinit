@@ -1,0 +1,2 @@
+# Skip license texts on startup
+set startup-quietly on

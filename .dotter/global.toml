@@ -6,6 +6,7 @@ depends = []
 [default.files]
 "bottom.toml" = "~/.config/bottom/bottom.toml"
 gdbinit = "~/.gdbinit"
+gdbearlyinit = "~/.gdbearlyinit"
 gitconfig = "~/.gitconfig"
 "micro.json" = "~/.config/micro/settings.json"
 nano = "~/.nano"
