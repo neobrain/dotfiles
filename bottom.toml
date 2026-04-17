@@ -1,0 +1,33 @@
+[flags]
+default_widget_type = "proc"
+
+[[row]]
+  [[row.child]]
+    type = "cpu"
+    ratio = 1
+
+  [[row.child]]
+    type = "mem"
+    ratio = 1
+
+  [[row.child]]
+    type = "net"
+    ratio = 1
+
+[[row]]
+  ratio = 2
+
+  [[row.child]]
+    ratio = 2
+    type = "proc"
+
+  [[row.child]]
+    ratio = 1
+
+    [[row.child.child]]
+      type = "temp"
+      ratio = 1
+
+    [[row.child.child]]
+      type = "disk"
+      ratio = 1
