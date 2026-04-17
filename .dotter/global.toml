@@ -12,6 +12,7 @@ gitconfig = "~/.gitconfig"
 nano = "~/.nano"
 nanorc = "~/.nanorc"
 "nushell.nu" = "~/.config/nushell/config.nu"
+"starship.toml" = "~/.config/starship.toml"
 zshrc = "~/.zshrc"
 
 [default.variables]

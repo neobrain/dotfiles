@@ -1,0 +1,31 @@
+add_newline = false
+
+[directory]
+truncation_length = 10
+truncation_symbol = '… '
+repo_root_style = "#f05133"
+# home_symbol = '🏠'
+
+[line_break]
+# disabled = true
+
+[status]
+disabled = false
+
+[c]
+disabled = true
+
+[cmake]
+format = '[\(cmake\) ]($style)'
+
+[gcloud]
+disabled = true
+
+[git_status]
+disabled = true
+
+[nodejs]
+format = '[\(js\) ]($style)'
+
+[package]
+disabled = true
