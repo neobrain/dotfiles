@@ -2,6 +2,9 @@
     "*.diff": {
         "rmtrailingws": false
     },
+    "*.patch": {
+        "rmtrailingws": false
+    },
     "autoclose": false,
     "autoindent": false,
     "colorscheme_": "bubblegum",
@@ -12,8 +15,8 @@
         "linter": false
     },
     "hlsearch": true,
+    "parsecursor": true,
     "rmtrailingws": true,
     "scrollbar": true,
-    "tabstospaces": true,
-    "parsecursor": true
+    "tabstospaces": true
 }
